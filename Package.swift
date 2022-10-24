@@ -5,6 +5,7 @@ import PackageDescription
 let package = Package(
   name: "vapor-routing",
   platforms: [
+    .iOS(.v15),
     .macOS(.v12)
   ],
   products: [
